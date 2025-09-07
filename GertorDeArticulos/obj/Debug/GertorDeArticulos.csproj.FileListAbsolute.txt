@@ -1,0 +1,17 @@
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\GertorDeArticulos.exe.config
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\GertorDeArticulos.exe
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\GertorDeArticulos.pdb
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\dominio.dll
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\service.dll
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\dominio.pdb
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\bin\Debug\service.pdb
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.csproj.AssemblyReference.cache
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.Inicio.resources
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.Properties.Resources.resources
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.csproj.GenerateResource.cache
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.csproj.CoreCompileInputs.cache
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDe.DBDD57D0.Up2Date
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.exe
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.pdb
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\GertorDeArticulos.frmAltaArticulo.resources
+C:\Users\Xxjul\OneDrive\Escritorio\EstudioPR3\GertorDeArticulos\GertorDeArticulos\obj\Debug\service.frmArticulos.resources

@@ -1,0 +1,101 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using dominio;
+using service;
+
+namespace GertorDeArticulos
+{
+    public partial class frmAltaArticulo : Form
+    {
+        private Articulo articulo = null;
+
+        public frmAltaArticulo()
+        {
+
+            InitializeComponent();
+
+        }
+
+        public frmAltaArticulo(Articulo articulo)
+        {
+            InitializeComponent();
+            this.articulo = articulo;
+        }
+
+        private void btnCrear_Click(object sender, EventArgs e)
+        {
+            Articulo nuevoArticulo = new Articulo();
+            try
+            {
+                nuevoArticulo.codigo = "23";
+                nuevoArticulo.nombre = txtNombre.Text;
+                nuevoArticulo.descripcion = txtbDescipcion.Text;
+                nuevoArticulo.precio = decimal.Parse(txtPrecio.Text);
+                nuevoArticulo.idCategoria = int.Parse(cbCategoria.SelectedValue.ToString());
+                nuevoArticulo.idMarca = int.Parse(cbMarca.SelectedValue.ToString());
+
+                ArticuloService servicio = new ArticuloService();
+                servicio.agregar(nuevoArticulo);
+                MessageBox.Show("Articulo agregado exitosamente");
+
+
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                this.Close();
+
+
+            }
+
+
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmAltaArticulo_Load(object sender, EventArgs e)
+        {
+            // Cargar ComboBox de Filtro Marca y Categoria
+            MarcaService marca = new MarcaService();
+            List<Marca> listaMarca = marca.listar();
+            cbMarca.DataSource = listaMarca;
+            cbMarca.DisplayMember = "descripcion";
+            cbMarca.ValueMember = "id";
+
+            CategoriaService categoria = new CategoriaService();
+            List<Categoria> listaCategoria = categoria.Listar();
+            cbCategoria.DataSource = listaCategoria;
+            cbCategoria.DisplayMember = "descripcion";
+            cbCategoria.ValueMember = "id";
+
+            if (articulo != null)
+            {
+                lblTituloNuevoArticulo.Text = "Modificar Articulo";
+                btnCrear.Text = "Modificar";
+                txtNombre.Text = articulo.nombre;
+                txtbDescipcion.Text = articulo.descripcion;
+                txtPrecio.Text = articulo.precio.ToString();
+            }
+        }
+
+        
+    }
+}
