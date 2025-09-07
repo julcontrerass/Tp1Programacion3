@@ -78,13 +78,13 @@ namespace GertorDeArticulos
             List<Marca> listaMarca = marca.listar();
             cbMarca.DataSource = listaMarca;
             cbMarca.DisplayMember = "descripcion";
-            cbMarca.ValueMember = "id";
+            cbMarca.ValueMember = "idMarca";
 
             CategoriaService categoria = new CategoriaService();
             List<Categoria> listaCategoria = categoria.Listar();
             cbCategoria.DataSource = listaCategoria;
             cbCategoria.DisplayMember = "descripcion";
-            cbCategoria.ValueMember = "id";
+            cbCategoria.ValueMember = "idCategoria";
 
             if (articulo != null)
             {

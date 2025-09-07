@@ -21,7 +21,7 @@ namespace service
                 {
                     Categoria aux = new Categoria();
                     aux.descripcion = (string)datos.Lector["Descripcion"];
-                    aux.id = (int)datos.Lector["Id"];
+                    aux.idCategoria = (int)datos.Lector["Id"];
                     lista.Add(aux);
                 }
                 return lista;

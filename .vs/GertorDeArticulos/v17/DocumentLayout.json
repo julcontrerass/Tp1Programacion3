@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|solutionrelative:gertordearticulos\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\gertordearticulos\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|solutionrelative:gertordearticulos\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|solutionrelative:dominio\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\articuloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\gertordearticulos\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,8 +27,24 @@
       "RelativeMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|solutionrelative:gertordearticulos\\frmarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|solutionrelative:dominio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\marcaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFA14AE0-E3F1-4EB2-A0CD-0F5D1D39A483}|dominio\\dominio.csproj|solutionrelative:dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\gertordearticulos\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|solutionrelative:gertordearticulos\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EE57A93-1C9D-4C2C-9D03-B97EBBD313A2}|service\\service.csproj|solutionrelative:service\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF101CB-BC77-4798-BDFF-BA33E061273C}|GertorDeArticulos\\GertorDeArticulos.csproj|C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\gertordearticulos\\frmarticulos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,7 +93,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -104,8 +104,51 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Marca.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Marca.cs",
+              "RelativeDocumentMoniker": "dominio\\Marca.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Marca.cs",
+              "RelativeToolTip": "dominio\\Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T02:24:21.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "GertorDeArticulos\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
+              "RelativeToolTip": "GertorDeArticulos\\frmAltaArticulo.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAApwFoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T02:54:04.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Categoria.cs",
+              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Categoria.cs",
+              "RelativeToolTip": "dominio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T02:25:54.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AccesoDb.cs",
               "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\AccesoDb.cs",
               "RelativeDocumentMoniker": "service\\AccesoDb.cs",
@@ -117,111 +160,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "frmArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs",
+              "RelativeDocumentMoniker": "GertorDeArticulos\\frmArticulos.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs",
+              "RelativeToolTip": "GertorDeArticulos\\frmArticulos.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwDAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T01:57:34.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CategoriaService.cs",
               "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\CategoriaService.cs",
               "RelativeDocumentMoniker": "service\\CategoriaService.cs",
               "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\CategoriaService.cs",
               "RelativeToolTip": "service\\CategoriaService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T03:33:31.881Z"
+              "WhenOpened": "2025-09-06T03:33:31.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "MarcaService.cs",
               "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\MarcaService.cs",
               "RelativeDocumentMoniker": "service\\MarcaService.cs",
               "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\MarcaService.cs",
               "RelativeToolTip": "service\\MarcaService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwCMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T03:10:36.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Marca.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Marca.cs",
-              "RelativeDocumentMoniker": "dominio\\Marca.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Marca.cs",
-              "RelativeToolTip": "dominio\\Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T02:24:21.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Articulo.cs",
-              "RelativeDocumentMoniker": "dominio\\Articulo.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Articulo.cs*",
-              "RelativeToolTip": "dominio\\Articulo.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T01:50:06.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArticuloService.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\ArticuloService.cs",
-              "RelativeDocumentMoniker": "service\\ArticuloService.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\ArticuloService.cs*",
-              "RelativeToolTip": "service\\ArticuloService.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T02:16:17.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAltaArticulo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "GertorDeArticulos\\frmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs [Design]",
-              "RelativeToolTip": "GertorDeArticulos\\frmAltaArticulo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T02:42:36.312Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmAltaArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
-              "RelativeDocumentMoniker": "GertorDeArticulos\\frmAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
-              "RelativeToolTip": "GertorDeArticulos\\frmAltaArticulo.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwFMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T02:54:04.253Z",
+              "WhenOpened": "2025-09-06T03:10:36.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frmArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs",
-              "RelativeDocumentMoniker": "GertorDeArticulos\\frmArticulos.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs*",
-              "RelativeToolTip": "GertorDeArticulos\\frmArticulos.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBcAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ArticuloService.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\ArticuloService.cs",
+              "RelativeDocumentMoniker": "service\\ArticuloService.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\service\\ArticuloService.cs",
+              "RelativeToolTip": "service\\ArticuloService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T01:57:34.245Z"
+              "WhenOpened": "2025-09-06T02:16:17.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "GertorDeArticulos\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GertorDeArticulos\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T02:42:36.312Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Articulo.cs",
+              "RelativeToolTip": "dominio\\Articulo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T01:50:06.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs",
               "RelativeDocumentMoniker": "GertorDeArticulos\\frmArticulos.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "GertorDeArticulos\\frmArticulos.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GertorDeArticulos\\frmArticulos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T01:40:45.437Z"
+              "WhenOpened": "2025-09-06T01:40:45.437Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -233,19 +257,8 @@
               "RelativeToolTip": "GertorDeArticulos\\frmArticulos.Designer.cs",
               "ViewState": "AgIAAMIAAAAAAAAAAAAhwNQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T03:00:46.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Categoria.cs",
-              "RelativeDocumentMoniker": "dominio\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\dominio\\Categoria.cs",
-              "RelativeToolTip": "dominio\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T02:25:54.821Z"
+              "WhenOpened": "2025-09-06T03:00:46.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -279,7 +292,8 @@
               "ToolTip": "C:\\Users\\Xxjul\\OneDrive\\Escritorio\\EstudioPR3\\GertorDeArticulos\\GertorDeArticulos\\frmArticulos.resx",
               "RelativeToolTip": "GertorDeArticulos\\frmArticulos.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-06T03:50:32.581Z"
+              "WhenOpened": "2025-09-06T03:50:32.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -15,7 +15,7 @@ namespace service
             AccesoDb datos = new AccesoDb();
             try
             {
-                datos.setearConsulta("SELECT id, codigo, nombre, descripcion, precio FROM ARTICULOS ");
+                datos.setearConsulta("select A.Id , codigo, nombre, A.descripcion, precio , M.id idMarca , M.Descripcion descripcionMarca , C.id idCategoria, C.Descripcion descripcionCategoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C Where M.id = A.id And C.id = A.id");
                 datos.ejecutarLectura();
                 while (datos.Lector.Read())
                 {
@@ -26,7 +26,16 @@ namespace service
                     aux.descripcion = (string)datos.Lector["Descripcion"];
                     aux.precio = Math.Round((decimal)datos.Lector["Precio"], 2);
 
+                    aux.Marca = new Marca();
+                    aux.Marca.idMarca = (int)datos.Lector["idMarca"];
+                    aux.Marca.descripcion = (string)datos.Lector["descripcionMarca"];
+                    aux.Categoria = new Categoria();
+                    aux.Categoria.idCategoria = (int)datos.Lector["idCategoria"];
+                    aux.Categoria.descripcion = (string)datos.Lector["descripcionCategoria"];
+
+
                     lista.Add(aux);
+
                 }
                 return lista;
             }
@@ -45,13 +54,13 @@ namespace service
             AccesoDb datos = new AccesoDb();
             try
             {
-                datos.setearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, idMarca, idCategoria, Precio) VALUES (@codigo, @nombre, @descripcion, @idMarca, @idCategoria, @precio)");
+                datos.setearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, Precio) VALUES (@codigo, @nombre, @descripcion, @precio)");
                 datos.setearParametro("@codigo", nuevo.codigo);
                 datos.setearParametro("@nombre", nuevo.nombre);
                 datos.setearParametro("@descripcion", nuevo.descripcion);
                 datos.setearParametro("@precio", nuevo.precio);
-                datos.setearParametro("@idMarca", nuevo.idMarca);
-                datos.setearParametro("@idCategoria", nuevo.idCategoria);
+                //datos.setearParametro("@idMarca", nuevo.idMarca);
+                //datos.setearParametro("@idCategoria", nuevo.idCategoria);
                 datos.ejecutarAccion();
             }
             catch (Exception)
@@ -110,52 +119,7 @@ namespace service
             }
         }
 
-        public virtual List<Articulo> Filtrar(string campo, string criterio, string filtro)
-        {
-            List<Articulo> lista = new List<Articulo>();
-            AccesoDb datos = new AccesoDb();
-            try
-            {
-                string consulta = "SELECT id, codigo, nombre, descripcion, precio FROM ARTICULOS WHERE ";
-                switch (campo)
-                {
-                    case "Nombre":
-                        switch (criterio)
-                        {
-                            case "Comienza con":
-                                consulta += "Nombre LIKE '" + filtro + "%' ";
-                                break;
-                            case "Termina con":
-                                consulta += "Nombre LIKE '%" + filtro + "' ";
-                                break;
-                            case "Contiene":
-                                consulta += "Nombre LIKE '%" + filtro + "%' ";
-                                break;
-                        }
-                        break;
-                }
-                datos.setearConsulta(consulta);
-                datos.ejecutarLectura();
-                while (datos.Lector.Read())
-                {
-                    Articulo aux = new Articulo();
-                    aux.id = (int)datos.Lector["Id"];
-                    aux.codigo = (string)datos.Lector["Codigo"];
-                    aux.nombre = (string)datos.Lector["Nombre"];
-                    aux.descripcion = (string)datos.Lector["Descripcion"];
-                    aux.precio = Math.Round((decimal)datos.Lector["Precio"], 2);
-                    lista.Add(aux);
-                }
-                return lista;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-            finally
-            {
-                datos.cerrarConexion();
-            }
-        }
+        
+        
         }
 }

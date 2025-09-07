@@ -21,13 +21,9 @@ namespace service
 
         private void Articulos_Load(object sender, EventArgs e)
         {
-            //// Cargar DataGridView con Articulos
-            //ArticuloService articulo = new ArticuloService();
-            //List<Articulo> listaArticulo = articulo.listar();
-            //dgvTablaArticulos.DataSource = listaArticulo;
             cargarTabla();
-            //dgvTablaArticulos.Columns["idCategoria"].Visible = false;
-            //dgvTablaArticulos.Columns["idMarca"].Visible = false;
+            dgvTablaArticulos.Columns["idMarca"].Visible = false;
+            dgvTablaArticulos.Columns["idCategoria"].Visible = false;
 
 
             // Cargar ComboBox de Filtro Marca y Categoria
@@ -35,13 +31,13 @@ namespace service
             List<Marca> listaMarca = marca.listar();
             cbFiltroMarca.DataSource = listaMarca;
             cbFiltroMarca.DisplayMember = "descripcion";
-            cbFiltroMarca.ValueMember = "id";
+            cbFiltroMarca.ValueMember = "idMarca";
 
             CategoriaService categoria = new CategoriaService();
             List<Categoria> listaCategoria = categoria.Listar();
             cbFiltroCategoria.DataSource = listaCategoria;
             cbFiltroCategoria.DisplayMember = "descripcion";
-            cbFiltroCategoria.ValueMember = "descripcion";
+            cbFiltroCategoria.ValueMember = "idCategoria";
 
 
 
