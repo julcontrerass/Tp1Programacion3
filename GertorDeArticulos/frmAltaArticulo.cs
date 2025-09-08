@@ -39,18 +39,12 @@ namespace GertorDeArticulos
                 nuevoArticulo.nombre = txtNombre.Text;
                 nuevoArticulo.descripcion = txtbDescipcion.Text;
                 nuevoArticulo.precio = decimal.Parse(txtPrecio.Text);
-                nuevoArticulo.idCategoria = int.Parse(cbCategoria.SelectedValue.ToString());
-                nuevoArticulo.idMarca = int.Parse(cbMarca.SelectedValue.ToString());
+                nuevoArticulo.idMarca = (int)cbMarca.SelectedValue;
+                nuevoArticulo.idCategoria = (int)cbCategoria.SelectedValue;
 
                 ArticuloService servicio = new ArticuloService();
                 servicio.agregar(nuevoArticulo);
                 MessageBox.Show("Articulo agregado exitosamente");
-
-
-
-
-
-
             }
             catch (Exception ex)
             {
@@ -88,11 +82,14 @@ namespace GertorDeArticulos
 
             if (articulo != null)
             {
-                lblTituloNuevoArticulo.Text = "Modificar Articulo";
+                Text = "Modificar Articulo";
                 btnCrear.Text = "Modificar";
                 txtNombre.Text = articulo.nombre;
                 txtbDescipcion.Text = articulo.descripcion;
                 txtPrecio.Text = articulo.precio.ToString();
+                cbMarca.SelectedValue = articulo.idMarca;
+                cbCategoria.SelectedValue = articulo.idCategoria;
+
             }
         }
 

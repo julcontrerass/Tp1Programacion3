@@ -70,12 +70,12 @@
             this.dgvTablaArticulos.Name = "dgvTablaArticulos";
             this.dgvTablaArticulos.ReadOnly = true;
             this.dgvTablaArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvTablaArticulos.Size = new System.Drawing.Size(485, 190);
+            this.dgvTablaArticulos.Size = new System.Drawing.Size(597, 190);
             this.dgvTablaArticulos.TabIndex = 1;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(223, 365);
+            this.btnAgregar.Location = new System.Drawing.Point(253, 362);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 2;
@@ -85,7 +85,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(367, 365);
+            this.btnEditar.Location = new System.Drawing.Point(397, 362);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(75, 23);
             this.btnEditar.TabIndex = 3;
@@ -95,7 +95,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(516, 364);
+            this.btnEliminar.Location = new System.Drawing.Point(546, 361);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 4;
@@ -183,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 444);
+            this.ClientSize = new System.Drawing.Size(950, 516);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblCategoriaFiltro);
             this.Controls.Add(this.lblMarcaFiltro);
