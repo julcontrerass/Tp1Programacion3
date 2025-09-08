@@ -22,32 +22,34 @@ namespace service
         private void Articulos_Load(object sender, EventArgs e)
         {
             cargarTabla();
-            dgvTablaArticulos.Columns["idMarca"].Visible = false;
-            dgvTablaArticulos.Columns["idCategoria"].Visible = false;
-
-
-            // Cargar ComboBox de Filtro Marca y Categoria
-            MarcaService marca = new MarcaService();
-            List<Marca> listaMarca = marca.listar();
-            cbFiltroMarca.DataSource = listaMarca;
-            cbFiltroMarca.DisplayMember = "descripcion";
-            cbFiltroMarca.ValueMember = "idMarca";
-
-            CategoriaService categoria = new CategoriaService();
-            List<Categoria> listaCategoria = categoria.Listar();
-            cbFiltroCategoria.DataSource = listaCategoria;
-            cbFiltroCategoria.DisplayMember = "descripcion";
-            cbFiltroCategoria.ValueMember = "idCategoria";
-
-
-
-
+           
         }
         private void cargarTabla()
         {
             ArticuloService articulo = new ArticuloService();
             List<Articulo> listaArticulo = articulo.listar();
             dgvTablaArticulos.DataSource = listaArticulo;
+
+            dgvTablaArticulos.Columns["idMarca"].Visible = false;
+            dgvTablaArticulos.Columns["idCategoria"].Visible = false;
+            dgvTablaArticulos.Columns["id"].Visible = false;
+
+
+            // Cargar ComboBox de Filtro Marca y Categoria
+            MarcaService marca = new MarcaService();
+            List<Marca> listaMarca = marca.listar();
+            listaMarca.Insert(0, new Marca { idMarca = 0, descripcion = "Todos" });
+            cbFiltroMarca.DataSource = listaMarca;
+            cbFiltroMarca.DisplayMember = "descripcion";
+            cbFiltroMarca.ValueMember = "idMarca";
+
+            CategoriaService categoria = new CategoriaService();
+            List<Categoria> listaCategoria = categoria.Listar();
+            listaCategoria.Insert(0, new Categoria { idCategoria = 0, descripcion = "Todos" });
+            cbFiltroCategoria.DataSource = listaCategoria;
+            cbFiltroCategoria.DisplayMember = "descripcion";
+            cbFiltroCategoria.ValueMember = "idCategoria";
+
 
         }
 
@@ -103,12 +105,63 @@ namespace service
         private void cbFiltroMarca_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+         
+            if (cbFiltroMarca.SelectedIndex != 0)
+            {
+                ArticuloService articulo = new ArticuloService();
+                List<Articulo> listaArticulos = articulo.listar();
+                List<Articulo> listaFiltrada;
+                int idMarca = (int)cbFiltroMarca.SelectedValue;
+                listaFiltrada = listaArticulos.FindAll(x => x.idMarca == idMarca);
+                dgvTablaArticulos.DataSource = null;
+                dgvTablaArticulos.DataSource = listaFiltrada;
+
+                dgvTablaArticulos.Columns["idMarca"].Visible = false;
+                dgvTablaArticulos.Columns["idCategoria"].Visible = false;
+                dgvTablaArticulos.Columns["id"].Visible = false;
+
+            }
+            else
+            {
+                cargarTabla();
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            
+            ArticuloService articulo = new ArticuloService();
+            List<Articulo> listaArticulos = articulo.listar();
+            List<Articulo> listaFiltrada;
+            listaFiltrada = listaArticulos.FindAll(x => x.nombre.ToUpper().Contains(txtbBuscador.Text.ToUpper()) || x.descripcion.ToUpper().Contains(txtbBuscador.Text.ToUpper()) || x.codigo.ToUpper().Contains(txtbBuscador.Text.ToUpper()));
+            dgvTablaArticulos.DataSource = null;
+            dgvTablaArticulos.DataSource = listaFiltrada;
+
+            dgvTablaArticulos.Columns["idMarca"].Visible = false;
+            dgvTablaArticulos.Columns["idCategoria"].Visible = false;
+            dgvTablaArticulos.Columns["id"].Visible = false;
+
         }
+
+        private void cbFiltroCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbFiltroCategoria.SelectedIndex != 0)
+            {
+                ArticuloService articulo = new ArticuloService();
+                List<Articulo> listaArticulos = articulo.listar();
+                List<Articulo> listaFiltrada;
+                int idCategoria = (int)cbFiltroCategoria.SelectedValue;
+                listaFiltrada = listaArticulos.FindAll(x => x.idCategoria == idCategoria);
+                dgvTablaArticulos.DataSource = null;
+                dgvTablaArticulos.DataSource = listaFiltrada;
+            }
+            else
+            {
+                cargarTabla();
+            }
+
+        }
+
+        
     }
     
    

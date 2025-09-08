@@ -35,6 +35,11 @@ namespace GertorDeArticulos
             Articulo nuevoArticulo = new Articulo();
             try
             {
+
+                if (articulo != null)
+                    articulo = new Articulo();
+                    
+
                 nuevoArticulo.codigo = "23";
                 nuevoArticulo.nombre = txtNombre.Text;
                 nuevoArticulo.descripcion = txtbDescipcion.Text;
@@ -43,8 +48,19 @@ namespace GertorDeArticulos
                 nuevoArticulo.idCategoria = (int)cbCategoria.SelectedValue;
 
                 ArticuloService servicio = new ArticuloService();
-                servicio.agregar(nuevoArticulo);
-                MessageBox.Show("Articulo agregado exitosamente");
+
+                if (nuevoArticulo.id != 0)
+                {
+                    nuevoArticulo.id = articulo.id;
+                    servicio.modificar(nuevoArticulo);
+                    MessageBox.Show("Articulo modificado exitosamente");
+                }
+                else
+                {
+                    servicio.agregar(nuevoArticulo);
+                    MessageBox.Show("Articulo agregado exitosamente");
+                }
+
             }
             catch (Exception ex)
             {
@@ -89,7 +105,7 @@ namespace GertorDeArticulos
                 txtPrecio.Text = articulo.precio.ToString();
                 cbMarca.SelectedValue = articulo.idMarca;
                 cbCategoria.SelectedValue = articulo.idCategoria;
-
+               
             }
         }
 

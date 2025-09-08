@@ -85,7 +85,7 @@ namespace service
                 datos.setearParametro("@nombre", articulo.nombre);
                 datos.setearParametro("@descripcion", articulo.descripcion);
                 datos.setearParametro("@precio", articulo.precio);
-                //datos.setearParametro("@id", articulo.id);
+                datos.setearParametro("@id", articulo.id);
                 datos.setearParametro("@idCategoria", articulo.idCategoria);
                 datos.setearParametro("@idMarca", articulo.idMarca);
                 datos.ejecutarLectura();
@@ -123,7 +123,46 @@ namespace service
             }
         }
 
-        
-        
+        public List<Articulo> filtrar(int id)
+        {
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDb datos = new AccesoDb();
+
+            try
+            {
+                datos.setearConsulta("select A.Id , codigo, nombre, A.descripcion, precio, idMarca, idCategoria , M.id idMarcas , M.Descripcion descripcionMarca , C.id idCategorias, C.Descripcion descripcionCategoria FROM ARTICULOS A, MARCAS M, CATEGORIAS C Where M.id = idMarca And C.id =idCategoria AND A.id = @id ");
+                datos.setearParametro("@id", id);
+                datos.ejecutarLectura();
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+                    aux.id = (int)datos.Lector["Id"];
+                    aux.codigo = (string)datos.Lector["Codigo"];
+                    aux.nombre = (string)datos.Lector["Nombre"];
+                    aux.descripcion = (string)datos.Lector["Descripcion"];
+                    aux.precio = Math.Round((decimal)datos.Lector["Precio"], 2);
+                    aux.idCategoria = (int)datos.Lector["idCategoria"];
+                    aux.idMarca = (int)datos.Lector["idMarca"];
+                    aux.Marca = new Marca();
+                    aux.Marca.idMarca = (int)datos.Lector["idMarcas"];
+                    aux.Marca.descripcion = (string)datos.Lector["descripcionMarca"];
+                    aux.Categoria = new Categoria();
+                    aux.Categoria.idCategoria = (int)datos.Lector["idCategorias"];
+                    aux.Categoria.descripcion = (string)datos.Lector["descripcionCategoria"];
+
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+
+            }
+            return lista;
         }
+    }
+
 }

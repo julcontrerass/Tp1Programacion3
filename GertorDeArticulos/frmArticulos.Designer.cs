@@ -134,6 +134,8 @@
             // 
             this.cbFiltroMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFiltroMarca.FormattingEnabled = true;
+            this.cbFiltroMarca.Items.AddRange(new object[] {
+            "Ninguno"});
             this.cbFiltroMarca.Location = new System.Drawing.Point(16, 157);
             this.cbFiltroMarca.Name = "cbFiltroMarca";
             this.cbFiltroMarca.Size = new System.Drawing.Size(121, 21);
@@ -148,6 +150,7 @@
             this.cbFiltroCategoria.Name = "cbFiltroCategoria";
             this.cbFiltroCategoria.Size = new System.Drawing.Size(121, 21);
             this.cbFiltroCategoria.TabIndex = 9;
+            this.cbFiltroCategoria.SelectedIndexChanged += new System.EventHandler(this.cbFiltroCategoria_SelectedIndexChanged);
             // 
             // lblMarcaFiltro
             // 
